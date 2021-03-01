@@ -1,18 +1,14 @@
-.DC{
-  width: 100%;  
+.DC {
+  width: 100%;
   height: 100%;
   justify-content: center;
-    float: right;
+  float: right;
 }
 
-.aside1{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 50%;
-    float: right;
-   
-    
-    
+.aside1 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  float: right;
 }
-
