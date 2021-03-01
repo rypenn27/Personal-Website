@@ -1,0 +1,21 @@
+.coffee-picture{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    float: right;
+    border-radius: 90%;
+}
+
+aside{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    float: right;
+    
+    
+}
+
+p{
+    font-family: 'Permanent Marker', cursive; 
+    
+}

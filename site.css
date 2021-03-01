@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    min-height:100vh;
+    background-color: silver;;
+}
+
+header {
+    max-height: 125px;
+    max-width: 100%;
+    background-color: #15573F;
+    font-family: courier;
+}
+
+footer {
+    position: absolute;
+    right: 0; bottom: 0; left: 0;
+    background-color: #15573F;
+    
+}
+
+.facebook_icon {
+    max-height: 100px;
+    max-width: 100px;
+    padding: 5px;
+}
+
+.instagram_icon {
+    max-height: 100px;
+    max-width: 100px;
+    padding: 5px;
+}
+
+.linkedin_icon {
+    max-height: 100px;
+    max-width: 100px;
+    padding: 5px;
+}
+
+ h1{
+    color: silver;
+    font-family: courier;
+}
+
+li {
+    color: silver;
+    font-weight: bold;
+    font-style: helvetica;
+    list-style-type: none;
+}
+
+.The Office{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    float: right;
+    border-radius: 90%;
+}
+
