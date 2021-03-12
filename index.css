@@ -1,21 +1,19 @@
-.coffee-picture{
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    float: right;
-    border-radius: 90%;
+.coffee-picture {
+  display: flex;
+  height: 20%;
+  width: 20%;
+  flex-wrap: wrap;
+  float: inline-start;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  border-radius: 90%;
 }
 
-aside{
-    display: flex;
-    height: 100%;
-    width: 50%;
-    float: right;
-    
-    
-}
-
-p{
-    font-family: 'Permanent Marker', cursive; 
-    
+p {
+  font-family: 'Permanent Marker', cursive;
+  color: #164a41;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }

@@ -3,62 +3,84 @@
   padding: 0;
 }
 
+a {
+  background-color: #164a41;
+  color: #daded4;
+  text-decoration-color: #daded4;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
 body {
   position: relative;
   min-height: 100%;
   min-height: 100vh;
-  background-color: silver;
+  background-color: #daded4;
 }
 
 header {
+  display: flex;
+  flex-direction: row;
   max-height: 125px;
   max-width: 100%;
-  background-color: #15573f;
+  background-color: #164a41;
   font-family: courier;
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
   background-color: #15573f;
 }
 
+.icons {
+  display: flex;
+  border-bottom: 5px;
+  float: right;
+}
+
 .facebook_icon {
-  max-height: 100px;
-  max-width: 100px;
-  padding: 5px;
-  border-radius: 90%;
+  display: flex;
+  float: right;
+  max-height: 50px;
+  max-width: 50px;
+  padding: 3px;
+  border-radius: 70%;
 }
 
 .instagram_icon {
-  max-height: 100px;
-  max-width: 100px;
-  padding: 5px;
-  border-radius: 90%;
+  max-height: 50px;
+  max-width: 50px;
+  padding: 3px;
+  border-radius: 70%;
 }
 
 .linkedin_icon {
-  max-height: 100px;
-  max-width: 100px;
-  padding: 5px;
-  border-radius: 90%;
+  max-height: 50px;
+  max-width: 50px;
+  padding: 3px;
+  border-radius: 70%;
 }
 
 .github_icon {
-  max-height: 100px;
-  max-width: 100px;
-  padding: 5px;
+  max-height: 50px;
+  max-width: 50px;
+  padding: 3px;
 }
 
 h1 {
   color: silver;
   font-family: courier;
+  display: flex;
+  flex-direction: row;
+
+  padding-left: 900px;
 }
 
 li {
-  color: silver;
   font-weight: bold;
   font-style: helvetica;
   list-style-type: none;
