@@ -5,10 +5,32 @@
   float: right;
 }
 
-p {
-  font-family: 'Permanent Marker', cursive;
+.about-text{
+  font-family: courier;
   color: #164a41;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  font-weight: bold
+}
+
+.tech-stack-text {
+  font-family: courier;
+  color: #164a41;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold
+}
+
+.stack-pictures{
+  display:flex;
+  
+  margin-left: 25%;
+  margin-right: 25%;
+ 
+}
+
+.node-picture {
+  margin: 8px;
 }
