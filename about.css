@@ -6,7 +6,8 @@
 }
 
 .about-text{
-  font-family: courier;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.4em;
   color: #164a41;
   margin-left: auto;
   margin-right: auto;
@@ -15,7 +16,18 @@
 }
 
 .tech-stack-text {
-  font-family: courier;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.6em;
+  color: #164a41;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold
+}
+
+.inspirational-quote {
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.6em;
   color: #164a41;
   margin-left: auto;
   margin-right: auto;
@@ -33,4 +45,16 @@
 
 .node-picture {
   margin: 8px;
+}
+
+.show-pigeon{
+  display: flex;
+  height: 20%;
+  width: 20%;
+  flex-wrap: wrap;
+  float: inline-start;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  
 }

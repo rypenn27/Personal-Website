@@ -40,6 +40,7 @@ footer {
   display: flex;
   border-bottom: 5px;
   float: right;
+  
 }
 
 .facebook_icon {
@@ -49,6 +50,9 @@ footer {
   max-width: 50px;
   padding: 3px;
   border-radius: 70%;
+  background-color: #daded4;
+  
+
 }
 
 .instagram_icon {
@@ -56,6 +60,7 @@ footer {
   max-width: 50px;
   padding: 3px;
   border-radius: 70%;
+  background-color: #daded4;
 }
 
 .linkedin_icon {
@@ -63,12 +68,16 @@ footer {
   max-width: 50px;
   padding: 3px;
   border-radius: 70%;
+  background-color: #daded4;
+  
 }
 
 .github_icon {
   max-height: 50px;
   max-width: 50px;
   padding: 3px;
+  background-color: #daded4;
+  
 }
 
 h1 {
